@@ -1,47 +1,170 @@
-.header{
-    color: #32b9cd;
-    border-bottom: 3px solid #32b9cd;
-    /* border: 3px solid yellow; */
+.header {
+  color: #32b9cd;
+  border-bottom: 3px solid #32b9cd;
+  /* border: 3px solid yellow; */
 }
 
-body{
-    margin: 0;
-    background-color: black;
-    font-family: monospace;
+body {
+  margin: 0;
+  background-color: black;
+  font-family: monospace;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    /* border: 3px solid red; */
+.container {
+  width: 80%;
+  margin: auto;
+  /* border: 3px solid red; */
 }
 
-.header .container{
-    display: flex;
-    justify-content: space-between;
+.header .container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 0;
-    width: 600px;
-    align-items: center;
-    color: #E3b062;
-    /* border: 3px solid blue; */
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 600px;
+  align-items: center;
+  color: #e3b062;
+  /* border: 3px solid blue; */
 }
 
-.agora{
-    font-weight: 1000;
+.agora {
+  font-weight: 1000;
 }
 
-/* .header h1 {
-    border: 3px solid green;
+/* Banner */
+
+.banner {
+  height: 500px;
+  background-image: url(./imgs/bg-jelly-fish-para-home.png);
+  background-size: cover;
+}
+.banner .container {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.banner .container p {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+}
+.banner span {
+  font-weight: 1000;
 }
 
-.header li {
-    border: 3px solid green;
-} */
+li a {
+  text-decoration: none;
+  color: #e3b062;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+input {
+  border-radius: 10px;
+  height: 30px;
+  border: 2px solid #32b9cd;
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+.btn {
+  border: none;
+  font-family: monospace;
+  padding: 0;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+  background-color: #e6005a;
+  margin-top: 10px;
+  height: 30px;
+  align-self: center;
+  width: 120px;
+  font-size: 18px;
+}
+.banner .card {
+  background-color: #e5e5e5;
+  height: 450px;
+  width: 400px;
+  border: 2px solid #e6005a;
+  border-radius: 8px;
+  color: #e6005a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  margin: 4px 0;
+}
+.btn-cadastrar {
+  border: none;
+  font-family: monospace;
+  padding: 0;
+  border: 2px solid #e6005a;
+  border-radius: 4px;
+  color: #e6005a;
+  font-weight: bolder;
+  background-color: #e5e5e5;
+  margin-top: 10px;
+  height: 30px;
+  align-self: center;
+  width: 120px;
+  font-size: 18px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.container-button {
+  display: flex;
+  justify-content: space-between;
+}
 
+/* Cards */
+.cards {
+  margin: 40px 0;
+  color: white;
+}
+.cards .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .container .card {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card img {
+  width: 60%;
+}
 
+.footer {
+  margin-top: 40px;
+  background-color: #e3b062;
+}
+.footer .container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer span {
+  font-weight: bolder;
+  font-size: 18px;
+}
