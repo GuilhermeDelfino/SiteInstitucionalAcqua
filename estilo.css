@@ -42,7 +42,9 @@ body {
   height: 500px;
   background-image: url(./imgs/bg-jelly-fish-para-home.png);
   background-size: cover;
+  padding-bottom: 60px;
 }
+
 .banner .container {
   height: 100%;
 
@@ -51,12 +53,14 @@ body {
   align-items: center;
   color: white;
 }
+
 .banner .container p {
   width: 280px;
   margin: 0;
   padding: 0;
   font-size: 36px;
 }
+
 .banner span {
   font-weight: 1000;
 }
@@ -65,11 +69,13 @@ li a {
   text-decoration: none;
   color: #e3b062;
 }
+
 .form-box {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
+
 input {
   border-radius: 10px;
   height: 30px;
@@ -77,20 +83,23 @@ input {
   margin-bottom: 8px;
   padding-left: 8px;
 }
+
 .btn {
   border: none;
   font-family: monospace;
   padding: 0;
+  cursor: pointer;
   border-radius: 4px;
   color: white;
   font-weight: bolder;
   background-color: #e6005a;
   margin-top: 10px;
-  height: 30px;
+  height: 40px;
   align-self: center;
   width: 120px;
   font-size: 18px;
 }
+
 .banner .card {
   background-color: #e5e5e5;
   height: 450px;
@@ -103,11 +112,12 @@ input {
   justify-content: center;
   align-items: center;
 }
+
 h4 {
   margin: 4px 0;
 }
+
 .btn-cadastrar {
-  border: none;
   font-family: monospace;
   padding: 0;
   border: 2px solid #e6005a;
@@ -116,7 +126,7 @@ h4 {
   font-weight: bolder;
   background-color: #e5e5e5;
   margin-top: 10px;
-  height: 30px;
+  height: 40px;
   align-self: center;
   width: 120px;
   font-size: 18px;
@@ -126,45 +136,67 @@ h4 {
   justify-content: center;
   text-decoration: none;
 }
+
 .container-button {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* Cards */
 .cards {
-  margin: 40px 0;
-  color: white;
+  background-color: #e5e5e5;
+  padding: 100px 0;
+  color: #222;
 }
+
 .cards .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.cards .container .card {
-  width: 250px;
+
+.cards .container .box {
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+
+  box-shadow: 0 0 6px #2222;
+  padding: 36px 16px;
+  border-radius: 8px;
 }
-.card img {
-  width: 60%;
+
+.box img {
+  width: 140px;
+}
+
+.box h4 {
+  color: #e6005a;
+  font-size: 32px;
+  margin-top: 28px;
+}
+
+.box p {
+  font-size: 18px;
 }
 
 .footer {
-  margin-top: 40px;
-  background-color: #e3b062;
+  background-color: #32b9cd;
+  height: 150px;
 }
+
 .footer .container {
-  height: 80px;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer span {
   font-weight: bolder;
+  color: #e5e5e5;
   font-size: 18px;
 }
